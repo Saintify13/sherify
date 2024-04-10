@@ -130,3 +130,39 @@ h3 {
     transition: all 1s ease-in-out;
 }
 
+#newGame {
+    background-color: var(--sienna);
+    color: var(--white);
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 1rem;
+    cursor: pointer;
+}
+
+.flags .flag-option ul li.active {
+    background-color: #a0522d;
+    color: #ffffff;
+}
+
+.flags .flag-option ul li.success {
+    background-color: var(--green);
+}
+
+.flags .flag-option ul li.wrong {
+    background-color: var(--red);
+}
+
+/*---------Score Area---------*/
+
+.score {
+    display: none;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.score .correct, 
+.score .incorrect {
+    color: var(--sienna);
+}
