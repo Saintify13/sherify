@@ -130,16 +130,3 @@ h3 {
     transition: all 1s ease-in-out;
 }
 
-.flags .flag-option ul li.active {
-    background-color: #a0522d;
-    color: #ffffff;
-}
-
-.flags .flag-option ul li.success {
-    background-color: var(--green);
-}
-
-.flags .flag-option ul li.wrong {
-    background-color: var(--red);
-}
-
