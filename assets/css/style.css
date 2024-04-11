@@ -26,6 +26,25 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: url(../images/background-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d2691e;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 ul {
     list-style: none;
 }
@@ -108,7 +127,11 @@ h3 {
     }
 }
 
-.flags .flag-option ul {
+.flags .flag-options {
+    margin-top: 2rem;
+}
+
+.flags .flag-options ul {
     width: 100;
     display: flex;
     align-items: center;
@@ -116,7 +139,7 @@ h3 {
 
 }
 
-.flags .flag-option ul li {
+.flags .flag-options ul li {
     font-size: 2.5rem;
     width: 240px;
     background-color: var(--white);
@@ -165,4 +188,35 @@ h3 {
 .score .correct, 
 .score .incorrect {
     color: var(--sienna);
+}
+
+/*---------Media Querie---------*/
+
+@media(min-width: 375px) {
+    h1,
+    h3,
+    .box .count {
+        font-size: 3rem;
+    }
+
+    .flags .flag-img {
+        width: 30rem;
+    }
+
+    .flags .flag-options ul li {
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media(min-width: 991px) {
+    .flags .flag-options ul li:hover {
+        background-color: var(--sienna);
+        color: var(--white);
+    }
 }
