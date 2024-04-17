@@ -99,3 +99,18 @@ function checkAnswer(cAnswer, count) {
     }       
 }
         
+//Function to show result correct and incorrect answer
+function showResults(count) {
+    if (currentIndex === count) {
+        flagOptions.innerHTML = '';
+        flagImgDiv.innerHTML = '';
+        scoreDiv.style.display = 'block';
+        correctAns.innerHTML = correctAns;
+        incorrectAns.innerHTML = count - correctAns;
+    }
+}
+
+    
+     
+
+        
