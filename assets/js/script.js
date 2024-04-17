@@ -110,7 +110,11 @@ function showResults(count) {
     }
 }
 
-    
+//To generate a new game
+btnNewGame.addEventListener('click', () => {
+    window.location.reload();
+}); 
+        
      
 
         
