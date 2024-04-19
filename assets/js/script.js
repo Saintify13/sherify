@@ -10,7 +10,7 @@ let score = document.querySelector('h3 span');
 let scoreDiv = document.querySelector('.score');
 let correctAns = document.querySelector('.score .correct span');
 let incorrectAns = document.querySelector('.score .incorrect span');
-let btnNewGame = document.querySelector('#newGame');
+let btnNewGame = document.querySelector("newgame");
 
 let currentIndex = 0;
 let correctAnswer = 0;
@@ -30,7 +30,7 @@ function getQuestion() {
     
             flagList.forEach(li => {
                 li.addEventListener('click', () => {
-                    let correctAnswer = questions[currentIndex].correctAnswer
+                    let correctAnswer = questions[currentIndex].correctAnswer;
                     li.classList.add('active');
                     //Increase index
                     currentIndex++;
@@ -70,7 +70,7 @@ function questionNum(num) {
     
 function addQuestiondata(obj, count) {
     if (currentIndex < count) {
-        flagImg.src=`img/${obj.img}`;
+        flagImg.src=`images/${obj.img}`;
         //Create options
         flagList.forEach((li, i) => {
             //Give each li a dynamic id
@@ -110,10 +110,14 @@ function showResults(count) {
     }
 }
 
-//To generate a new game
-btnNewGame.addEventListener('click', () => {
+//To generate a newgame and getquestion
+document.addEventListener("DOMContentLoaded", () => {
+    newgame.addEventListener('click', () => {
     window.location.reload();
-}); 
+        
+    }); 
+});
+
         
      
 

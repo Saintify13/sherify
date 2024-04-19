@@ -16,6 +16,7 @@
     --sienna: #a0522d;
     --red: #ff0000;
     --green: #1eb53a;
+    --purple: #45278b; 
 }
 
 html {
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-    background: url(../images/bg-img.jpg) no-repeat;
+    background: url(../images/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -54,7 +55,7 @@ a {
 
 h1 {
     font-size: 2.5rem;
-    color: var(--sienna);
+    color: var(--purple);
     padding: 0;
     margin: 0;
     text-align: center;
@@ -62,16 +63,16 @@ h1 {
 }
 
 h3 {
-    font-size: 2rem;
-    color: var(--sienna);
+    font-size: 1.5rem;
+    color: var(--purple);
     padding: 0;
     margin: 0;
     text-transform: capitalize; 
 }
 
 .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -86,17 +87,17 @@ h3 {
 }
 
 .box .count {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    color: var(--sienna);
+    color: var(--purple);
     text-transform: capitalize;
-    padding: 0;
+    padding: 0; 
 }
 
 /*---------Flags----------*/
 
 .flags {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -147,7 +148,7 @@ h3 {
     margin-bottom: 1.5rem;
     padding: 1rem;
     text-transform: capitalize;
-    color: var(--sienna);
+    color: var(--purple);
     border-radius: .5rem;
     cursor: pointer;
     box-shadow: 0 .5rem .5rem .5rem rgba(0 0 0 / .3);
@@ -155,7 +156,7 @@ h3 {
 }
 
 #newGame {
-    background-color: var(--sienna);
+    background-color: var(--purple);
     color: var(--white);
     padding: 1.5rem;
     font-size: 1.8rem;
@@ -166,7 +167,7 @@ h3 {
 }
 
 .flags .flag-option ul li.active {
-    background-color: var(--sienna);
+    background-color: var(--purple);
     color: var(--white);
 }
 
@@ -188,7 +189,7 @@ h3 {
 
 .score .correct, 
 .score .incorrect {
-    color: var(--sienna);
+    color: var(--purple);
 }
 
 /*---------Media Querie---------*/
@@ -217,7 +218,7 @@ h3 {
 
 @media(min-width: 991px) {
     .flags .flag-options ul li:hover {
-        background-color: var(--sienna);
+        background-color: var(--purple);
         color: var(--white);
     }
 }
