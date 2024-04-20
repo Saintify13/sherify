@@ -144,7 +144,7 @@ let questions = [
         "correct_answer": "turey"
     },
     {
-        "../images/": "united_kingdom.jpg",
+        "../images/": "united_Kingdom.jpg",
         "options": [
             "united states", 
             "united kingdom", 

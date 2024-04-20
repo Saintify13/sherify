@@ -64,7 +64,7 @@ function questionNum(num) {
 
 function addQuestionData(obj, count) {
     if (currentIndex < count) {
-        flagImg.src=`../images/${obj.img}`;
+        flagImg.src=`assets/images/${obj["../images/"]}`;
         //Create options
         flagList.forEach((li, i) => {
             //Give each li a dynamic id
@@ -116,4 +116,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }); 
 
     getQuestion();
+
+
 });
