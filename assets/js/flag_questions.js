@@ -1,6 +1,6 @@
-[
+let questions = [
     {
-        "img": "afghanistan.jpg",
+        "../images/": "afghanistan.jpg",
         "options": [
             "finland", 
             "afghanistan", 
@@ -8,7 +8,7 @@
         "correct_answer": "afghanistan"
     },
     {
-        "img": "bangladesh.jpg",
+        "../images/": "bangladesh.jpg",
         "options": [
             "bangladesh", 
             "spain", 
@@ -16,7 +16,7 @@
         "correct_answer": "bangladesh"
     },
     {
-        "img": "cameroon.jpg",
+        "../images/": "cameroon.jpg",
         "options": [
             "greece", 
             "afghanistan", 
@@ -24,7 +24,7 @@
         "correct_answer": "cameroon"
     },
     {
-        "img": "dominica.jpg",
+        "../images/": "dominica.jpg",
         "options": [
             "dominican republic", 
             "france", 
@@ -32,7 +32,7 @@
         "correct_answer": "dominican republic"
     },
     {
-        "img": "egypt.jpg",
+        "../images/": "egypt.jpg",
         "options": [
             "chile", 
             "egypt", 
@@ -40,7 +40,7 @@
         "correct_answer": "egypt"
     },
     {
-        "img": "france.jpg",
+        "../images/": "france.jpg",
         "options": [
             "ukraine", 
             "france", 
@@ -48,7 +48,7 @@
         "correct_answer": "france"
     },
     {
-        "img": "ghana.jpg",
+        "../images/": "ghana.jpg",
         "options": [
             "jamaica", 
             "afghanistan", 
@@ -56,7 +56,7 @@
         "correct_answer": "ghana"
     },
     {
-        "img": "italy.jpg",
+        "../images/": "italy.jpg",
         "options": [
             "kenya", 
             "italy", 
@@ -64,7 +64,7 @@
         "correct_answer": "italy"
     },
     {
-        "img": "jamaica.jpg",
+        "../images/": "jamaica.jpg",
         "options": [
             "haiti", 
             "jamaica", 
@@ -72,7 +72,7 @@
         "correct_answer": "jamaica"
     },
     {
-        "img": "kenya.jpg",
+        "../images/": "kenya.jpg",
         "options": [
             "kenya", 
             "malaysia", 
@@ -80,7 +80,7 @@
         "correct_answer": "kenya"
     },
     {
-        "img": "liberia.jpg",
+        "../images/": "liberia.jpg",
         "options": [
             "liberia", 
             "australia", 
@@ -88,7 +88,7 @@
         "correct_answer": "liberia"
     },
     {
-        "img": "malaysia.jpg",
+        "../images/": "malaysia.jpg",
         "options": [
             "south africa", 
             "paraguay", 
@@ -96,7 +96,7 @@
         "correct_answer": "malaysia"
     },
     {
-        "img": "nigeria.jpg",
+        "../images/": "nigeria.jpg",
         "options": [
             "nigeria", 
             "saudi arabia", 
@@ -104,7 +104,7 @@
         "correct_answer": "nigeria"
     },
     {
-        "img": "portugal.jpg",
+        "../images/": "portugal.jpg",
         "options": [
             "burkina faso", 
             "portugal", 
@@ -112,7 +112,7 @@
         "correct_answer": "portugal"
     },
     {
-        "img": "qatar.jpg",
+        "../images/": "qatar.jpg",
         "options": [
             "south korea", 
             "qatar", 
@@ -120,7 +120,7 @@
         "correct_answer": "qatar"
     },
     {
-        "img": "russia.jpg",
+        "../images/": "russia.jpg",
         "options": [
             "philippines", 
             "united kingdom", 
@@ -128,7 +128,7 @@
         "correct_answer": "russia"
     },
     {
-        "img": "spain.jpg",
+        "../images/": "spain.jpg",
         "options": [
             "argentina", 
             "togo", 
@@ -136,7 +136,7 @@
         "correct_answer": "spain"
     },
     {
-        "img": "turkey.jpg",
+        "../images/": "turkey.jpg",
         "options": [
             "norway", 
             "turkey", 
@@ -144,7 +144,7 @@
         "correct_answer": "turey"
     },
     {
-        "img": "united_kingdom.jpg",
+        "../images/": "united_kingdom.jpg",
         "options": [
             "united states", 
             "united kingdom", 
@@ -152,7 +152,7 @@
         "correct_answer": "united kingdom"
     },
     {
-        "img": "venezuela.jpg",
+        "../images/": "venezuela.jpg",
         "options": [
             "venezuela", 
             "uganda", 
@@ -160,7 +160,7 @@
         "correct_answer": "venezuela"
     },
     {
-        "img":"zambia.jpg",
+        "../images/":"zambia.jpg",
         "options": [
             "barbados", 
             "algeria", 
@@ -168,7 +168,7 @@
         "correct_answer": "zambia"
     },
     {
-        "img": "argentina.jpg",
+        "../images/": "argentina.jpg",
         "options": [
             "ecuador", 
             "argentina", 
@@ -176,7 +176,7 @@
         "correct_answer": "argentina"
     },
     {
-        "img": "brazil.jpg",
+        "../images/": "brazil.jpg",
         "options": [
             "indonesia", 
             "colombia", 
@@ -184,7 +184,7 @@
         "correct_answer": "brazil"
     },
     {
-        "img": "canada.jpg",
+        "../images/": "canada.jpg",
         "options": [
             "japan", 
             "fiji", 
@@ -192,7 +192,7 @@
         "correct_answer": "canada"
     },
     {
-        "img": "ecuador.jpg",
+        "../images/": "ecuador.jpg",
         "options": [
             "ecuador", 
             "isreal", 
@@ -200,7 +200,7 @@
         "correct_answer": "ecuador"
     },
     {
-        "img": "china.jpg",
+        "../images/": "china.jpg",
         "options": [
             "poland", 
             "micronesia", 
@@ -208,7 +208,7 @@
         "correct_answer": "china"
     },
     {
-        "img": "south_africa.jpg",
+        "../images/": "south_africa.jpg",
         "options": [
             "syria", 
             "south africa", 
@@ -216,7 +216,7 @@
         "correct_answer": "south africa"
     },
     {
-        "img": "morocco.jpg",
+        "../images/": "morocco.jpg",
         "options": [
             "morocco", 
             "panama", 

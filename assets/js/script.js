@@ -16,61 +16,55 @@ let currentIndex = 0;
 let correctAnswer = 0;
 
 function getQuestion() {
-    let myRequest = new XMLHttpRequest();
-    myRequest.onreadystatechange = function() {
-        if (this.readystate === 4 && this.status === 200) {
-            let questions = JSON.parce(this.responseText);
-            // number of questions for each new game
-            let qCount = 20;
-            questionNum(qCount);
-            //Random questions each new game
-            questions = questions.sort(() => Math.random() - Math.random()).slice(0, 20);
-            // Add questions data
-            addQuestiondata(questions[currentIndex], qCount);
+    // number of questions for each new game
+    let qCount = 20;
+    questionNum(qCount);
+    //Random questions each new game
+    questions = questions.sort(() => Math.random() - Math.random()).slice(0, 20);
+    // Add questions data
+    addQuestionData(questions[currentIndex], qCount);
     
-            flagList.forEach(li => {
-                li.addEventListener('click', () => {
-                    let correctAnswer = questions[currentIndex].correctAnswer;
-                    li.classList.add('active');
-                    //Increase index
-                    currentIndex++;
+    flagList.forEach(li => {
+        li.addEventListener('click', () => {
+            let correctAnswer = questions[currentIndex].correctAnswer;
+            li.classList.add('active');
+            //Increase index
+            currentIndex++;
     
-                    //Check the answer after 500ms
-                    setTimeout(() => {
-                        checkAnswer(correctAnswer, qCount);
-                    }, 500);
+            //Check the answer after 500ms
+            setTimeout(() => {
+                checkAnswer(correctAnswer, qCount);
+            }, 500);
     
-                    setTimeout(() => {
-                        //Remove previous image source
-                        flagImg.src = '';
-                        //Remove all classes(active, success, incorrect)
-                        li.classList.remove('active');
-                        li.classList.remove('success');
-                        li.classList.remove('incorrect');
+            setTimeout(() => {
+                //Remove previous image source
+                flagImg.src = '';
+                //Remove all classes(active, success, incorrect)
+                li.classList.remove('active');
+                li.classList.remove('success');
+                li.classList.remove('incorrect');
     
-                        //Add question data to show next question
-                        addQuestiondata(questions[currentIndex], qCount);
-                    }, 1000)
+            //Add question data to show next question
+                addQuestionData(questions[currentIndex], qCount);
+            }, 1000)
     
-                    //Show results
-                    setTimeout(() => {
-                        showResults(qCount);
-                    }, 1002);
-                });
-            });
-        }
-    }
-    myRequest.open("GET", "js/flag_questions.json", true);
-    myRequest.send();
+            //Show results
+            setTimeout(() => {
+                showResults(qCount);
+            }, 1002);
+        });
+    });
 }
     
 function questionNum(num) {
     countSpan.innerHTML = num;
 }
-    
-function addQuestiondata(obj, count) {
+
+//Create addQuestionData function
+
+function addQuestionData(obj, count) {
     if (currentIndex < count) {
-        flagImg.src=`images/${obj.img}`;
+        flagImg.src=`../images/${obj.img}`;
         //Create options
         flagList.forEach((li, i) => {
             //Give each li a dynamic id
@@ -82,6 +76,8 @@ function addQuestiondata(obj, count) {
         });
     } 
 } 
+
+//Create checkAnswer function
 
 function checkAnswer(cAnswer, count) {
     let choosenAnswer;
@@ -100,6 +96,7 @@ function checkAnswer(cAnswer, count) {
 }
         
 //Function to show result correct and incorrect answer
+
 function showResults(count) {
     if (currentIndex === count) {
         flagOptions.innerHTML = '';
@@ -111,14 +108,12 @@ function showResults(count) {
 }
 
 //To generate a newgame and getquestion
+
 document.addEventListener("DOMContentLoaded", () => {
     newgame.addEventListener('click', () => {
     window.location.reload();
         
     }); 
+
+    getQuestion();
 });
-
-        
-     
-
-        
