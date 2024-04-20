@@ -12,6 +12,7 @@ let correctAns = document.querySelector('.score .correct span');
 let incorrectAns = document.querySelector('.score .incorrect span');
 let btnNewGame = document.querySelector("newgame");
 
+
 let currentIndex = 0;
 let correctAnswer = 0;
 
