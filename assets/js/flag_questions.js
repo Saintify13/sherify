@@ -5,7 +5,7 @@
             "finland", 
             "afghanistan", 
             "ghana"],
-        "correct_answer": "afghanistan"
+        "correct_Answer": "afghanistan"
     },
     {
         "../images/": "bangladesh.jpg",
@@ -13,7 +13,7 @@
             "bangladesh", 
             "spain", 
             "angola"],
-        "correct_answer": "bangladesh"
+        "correct_Answer": "bangladesh"
     },
     {
         "../images/": "cameroon.jpg",
@@ -21,7 +21,7 @@
             "greece", 
             "afghanistan", 
             "cameroon"],
-        "correct_answer": "cameroon"
+        "correct_Answer": "cameroon"
     },
     {
         "../images/": "dominica.jpg",
@@ -29,7 +29,7 @@
             "dominican republic", 
             "france", 
             "india"],
-        "correct_answer": "dominican republic"
+        "correct_Answer": "dominican republic"
     },
     {
         "../images/": "egypt.jpg",
@@ -37,7 +37,7 @@
             "chile", 
             "egypt", 
             "germany"],
-        "correct_answer": "egypt"
+        "correct_Answer": "egypt"
     },
     {
         "../images/": "france.jpg",
@@ -45,7 +45,7 @@
             "ukraine", 
             "france", 
             "nigeria"],
-        "correct_answer": "france"
+        "correct_Answer": "france"
     },
     {
         "../images/": "ghana.jpg",
@@ -53,7 +53,7 @@
             "jamaica", 
             "afghanistan", 
             "ghana"],
-        "correct_answer": "ghana"
+        "correct_Answer": "ghana"
     },
     {
         "../images/": "italy.jpg",
@@ -61,7 +61,7 @@
             "kenya", 
             "italy", 
             "albania"],
-        "correct_answer": "italy"
+        "correct_Answer": "italy"
     },
     {
         "../images/": "jamaica.jpg",
@@ -69,7 +69,7 @@
             "haiti", 
             "jamaica", 
             "senegal"],
-        "correct_answer": "jamaica"
+        "correct_Answer": "jamaica"
     },
     {
         "../images/": "kenya.jpg",
@@ -77,7 +77,7 @@
             "kenya", 
             "malaysia", 
             "canada"],
-        "correct_answer": "kenya"
+        "correct_Answer": "kenya"
     },
     {
         "../images/": "liberia.jpg",
@@ -85,7 +85,7 @@
             "liberia", 
             "australia", 
             "mexico"],
-        "correct_answer": "liberia"
+        "correct_Answer": "liberia"
     },
     {
         "../images/": "malaysia.jpg",
@@ -93,7 +93,7 @@
             "south africa", 
             "paraguay", 
             "malaysia"],
-        "correct_answer": "malaysia"
+        "correct_Answer": "malaysia"
     },
     {
         "../images/": "nigeria.jpg",
@@ -101,7 +101,7 @@
             "nigeria", 
             "saudi arabia", 
             "russia"],
-        "correct_answer": "nigeria"
+        "correct_Answer": "nigeria"
     },
     {
         "../images/": "portugal.jpg",
@@ -109,7 +109,7 @@
             "burkina faso", 
             "portugal", 
             "singapore"],
-        "correct_answer": "portugal"
+        "correct_Answer": "portugal"
     },
     {
         "../images/": "qatar.jpg",
@@ -117,7 +117,7 @@
             "south korea", 
             "qatar", 
             "ghana"],
-        "correct_answer": "qatar"
+        "correct_Answer": "qatar"
     },
     {
         "../images/": "russia.jpg",
@@ -125,7 +125,7 @@
             "philippines", 
             "united kingdom", 
             "russia"],
-        "correct_answer": "russia"
+        "correct_Answer": "russia"
     },
     {
         "../images/": "spain.jpg",
@@ -133,7 +133,7 @@
             "argentina", 
             "togo", 
             "spain"],
-        "correct_answer": "spain"
+        "correct_Answer": "spain"
     },
     {
         "../images/": "turkey.jpg",
@@ -141,7 +141,7 @@
             "norway", 
             "turkey", 
             "liberia"],
-        "correct_answer": "turey"
+        "correct_Answer": "turey"
     },
     {
         "../images/": "united_Kingdom.jpg",
@@ -149,7 +149,7 @@
             "united states", 
             "united kingdom", 
             "united arab emirate"],
-        "correct_answer": "united kingdom"
+        "correct_Answer": "united kingdom"
     },
     {
         "../images/": "venezuela.jpg",
@@ -157,7 +157,7 @@
             "venezuela", 
             "uganda", 
             "peru"],
-        "correct_answer": "venezuela"
+        "correct_Answer": "venezuela"
     },
     {
         "../images/":"zambia.jpg",

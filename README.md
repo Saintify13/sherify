@@ -27,7 +27,7 @@ This game website primary target audience are teenagers and adults, this is to h
 * As a first time user: 
     - I want to know what the game is about and how to play.
     - I want the game to be fun and engaging.
-    - I want a visual appealing, well functioning gane site.
+    - I want a visual appealing, well functioning game site.
     - I want to see instruction on how to play the game.
     - I want to quickly and easily navigate through the game.    
 
@@ -130,9 +130,30 @@ The colors used offers a well balanced contrast. It give a rich and satisfactory
 
   ### Lighthouse 
       The Chrome Developer Tools lighthouse feature was employed to assess performance, adherence to best practices, accessibility, and Search Engine Optimisation (SEO). Both desktop and mobile tests were conducted for each page.
-      * ![Mobile testing](https://pagespeed.web.dev/analysis/https-8000-saintify13-sherify-vc4eqg5z5z8-ws-eu110-gitpod-io/aqf32d1rq0?form_factor=mobile)
-      * ![Desktop testing](https://pagespeed.web.dev/analysis/https-8000-saintify13-sherify-vc4eqg5z5z8-ws-eu110-gitpod-io/aqf32d1rq0?form_factor=desktop)
+      * ![Mobile testing](assets/wireframes/lighthouse-mobile.JPG)
+      * ![Desktop testing](assets/wireframes/lighthouse-desktop.JPG)
 
+
+### Testing User Stories from User Experience UX
+
+### First Time User
+    * I want to know what the game is about and how to play
+      * When opened on all device type, you're immediately welcomed with a 
+        how to play button, displayed country flag and three option buttons 
+
+    * I want the game to be fun and engaging.
+      * With the numerous flags and their uniqueness, you're immediately 
+        captured to wonder how much flags you can identify and wants to beat your imagination.     
+    
+    * I want a visual appealing, well functioning game site.
+      * The background image which is a blank world map has a calm and appealing sensation coupled with flanbouyant flag colours that blends well into the background image.
+
+### Returning and Frequent User
+    * I'd like there to be a large pool of questions available to keep 
+      the game challenging and replayable.
+      * There will be regular addition of questions as there over 300     country flags
+
+    *   
 
 ### Bugs
     * When validating the index.html a parse error on the body closing     tag was identified, I rearrange the code and the parse error was gone.

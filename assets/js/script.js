@@ -14,7 +14,7 @@ let btnNewGame = document.querySelector("newgame");
 
 
 let currentIndex = 0;
-let correctAnswer = 0;
+let correct_Answer = 0;
 
 function getQuestion() {
     // number of questions for each new game
@@ -27,14 +27,14 @@ function getQuestion() {
     
     flagList.forEach(li => {
         li.addEventListener('click', () => {
-            let correctAnswer = questions[currentIndex].correctAnswer;
+            let correct_Answer = questions[currentIndex].correct_Answer;
             li.classList.add('active');
             //Increase index
             currentIndex++;
     
             //Check the answer after 500ms
             setTimeout(() => {
-                checkAnswer(correctAnswer, qCount);
+                checkAnswer(correct_Answer, qCount);
             }, 500);
     
             setTimeout(() => {
@@ -80,21 +80,17 @@ function addQuestionData(obj, count) {
 
 //Create checkAnswer function
 
-function checkAnswer(cAnswer, count) {
-    let choosenAnswer;
-    if ('let i = 0; i < flagList.length; i++') {
-        if (flagList[i].classList.contains('active')) {
-            choosenAnswer = flagList[i].dataset.answer;
-            if (cAnswer === choosenAnswer) {
+function checkAnswer(correct_Answer, count) {
+            if (correct_Answer) {
                 flagList.classList.add('success');
-                correctAnswer++;
-                score.innerHTML = correctAnswer;
+                correct_Answer++;
+                score.innerHTML = correct_Answer;
             } else {
-                flagList.classList.add('incorrectAnswer');
-            }
+                flagList.classList.add('incorrect_Answer');
+           }
         }
-    }       
-}
+       
+
         
 //Function to show result correct and incorrect answer
 
