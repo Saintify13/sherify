@@ -1,4 +1,4 @@
-let questions = [
+ questions = [
     {
         "../images/": "afghanistan.jpg",
         "options": [
@@ -223,4 +223,4 @@ let questions = [
             "myanmar"],
         "correct_answer": "morocco"
     }
-]
+];
