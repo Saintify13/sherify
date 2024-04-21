@@ -115,27 +115,18 @@ The colors used offers a well balanced contrast. It give a rich and satisfactory
     was used to create the wireframes
   * [Favicon.cc:](https://www.favicon.cc/?action=import_request) was used 
     to create favicon.
-  * [UI.dev](https://ui.dev/amiresponsive?url=https://   8000-saintify13-sherify-vc4eqg5z5z8.ws-eu110.gitpod.io/)was used to show the site on a range of screen sizes. 
+  * [UI.dev](https://ui.dev/amiresponsive?url=https://     8000-saintify13-sherify-vc4eqg5z5z8.ws-eu110.gitpod.io/)was used to show the site on a range of screen sizes. 
   * [Wikipedia](https://en.wikipedia.org/wiki/    File:A_large_blank_world_map_with_oceans_marked_in_blue.PNG) the background image used was from wikipedia. 
-  * [Google Font](https://fonts.google.com/?query=raleway) was used to import the raleway font.
-  * Google Chrome Developer Tools was used to for debugging and testing 
-  * Lighthouse was also used for testing  
 
-
-  # Testing
-
-    The W3C Markup Validator, W3C CSS Validator and JSHint services were used to validate the projects pages to ensure there were no syntax errors.
-
-  ### W3C Markup Validator
-   * ![Index.html results](https://validator.w3.org/nu/#textarea)
-
+  ### W3C HTML Validation
+   *  ![index.html result](assets/wireframes/html-validation.JPG)
+  
   ### W3C CSS Validator
-   * ![Style.css result]()
-
-  ![w3c-header](assets/html%20validation/w3c-html-header.JPG)
+   * ![Style.css result](assets/wireframes/css-validationms2.JPG)
 
   ### JSHint JavaScript Quality Tool
-   * ![JavaScript-validation1](https://jshint.com/)
+   * ![JavaScript-validation1](assets/wireframes/JavaScript-validation1.JPG)
+   *  ![JavaScript-validation2](assets/wireframes/JavaScript-validation2.JPG)
 
   ### Lighthouse 
       The Chrome Developer Tools lighthouse feature was employed to assess performance, adherence to best practices, accessibility, and Search Engine Optimisation (SEO). Both desktop and mobile tests were conducted for each page.
